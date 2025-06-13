@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.hero {
+    background-image: url('https://source.unsplash.com/1600x900/?stock-market');
+    background-size: cover;
+    background-position: center;
+    padding: 140px 0;
+}
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+.hero p {
+    font-size: 1.25rem;
+}
+
+.card-body button {
+    width: 100%;
+}
