@@ -25,18 +25,29 @@
         </div>
     </nav>
 
-    <header class="hero text-center text-white">
-        <div class="container">
-            <h1>Bienvenido a Zara Bolsa</h1>
-            <p>Descubre las mejores oportunidades del mercado de valores</p>
-            <a href="courses.html" class="btn btn-primary">Explorar Cursos</a>
+    <header id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active hero-slide slide1 d-flex align-items-center text-center text-white">
+                <div class="container">
+                    <h1 class="display-4 animate">Bienvenido a Zara Bolsa</h1>
+                    <p class="lead">Descubre las mejores oportunidades del mercado de valores</p>
+                    <a href="courses.html" class="btn btn-primary">Explorar Cursos</a>
+                </div>
+            </div>
+            <div class="carousel-item hero-slide slide2 d-flex align-items-center text-center text-white">
+                <div class="container">
+                    <h1 class="display-4 animate">Invierte con Confianza</h1>
+                    <p class="lead">Cursos actualizados y noticias en tiempo real</p>
+                    <a href="#updates" class="btn btn-primary">Ver Novedades</a>
+                </div>
+            </div>
         </div>
     </header>
 
     <section id="updates" class="py-5">
         <div class="container">
-            <h2 class="mb-4">Últimas Actualizaciones</h2>
-            <div id="news" class="row"></div>
+            <h2 class="mb-4 text-center">Últimas Actualizaciones</h2>
+            <div id="news" class="row g-4"></div>
         </div>
     </section>
 
@@ -45,7 +56,7 @@
             <h2 class="mb-4">Cursos Destacados</h2>
             <div class="row g-4">
                 <div class="col-md-4">
-                    <div class="card h-100">
+                    <div class="card h-100 fade-in">
                         <div class="card-body">
                             <h5 class="card-title">Introducción a la Bolsa</h5>
                             <p class="card-text">Aprende lo básico del mercado de valores.</p>
@@ -53,7 +64,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card h-100">
+                    <div class="card h-100 fade-in">
                         <div class="card-body">
                             <h5 class="card-title">Análisis Técnico</h5>
                             <p class="card-text">Conoce las herramientas para detectar tendencias.</p>
@@ -61,7 +72,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card h-100">
+                    <div class="card h-100 fade-in">
                         <div class="card-body">
                             <h5 class="card-title">Gestión de Riesgos</h5>
                             <p class="card-text">Protege tus inversiones de la volatilidad.</p>
